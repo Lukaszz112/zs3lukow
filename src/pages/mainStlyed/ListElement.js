@@ -6,7 +6,7 @@ export const ListElement = styled.div`
 
     input[type="button"]{
         height: 70px;
-        width: 25vw;
+        width: 60vw;
         border-radius: 20px;
         border: none;
         font-family: 'ubuntu';
