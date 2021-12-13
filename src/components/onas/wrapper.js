@@ -38,16 +38,10 @@ export const Wrapper = styled.div`
     
     ${props => props.robert && css`
         background-color:#56bA1d;
-        img{
-            transform: scaleX(1.4);
-        }
     `}
 
     ${props => props.jakub && css`
         background-color: #67cA2e;
-        img{
-            transform: scaleX(0.85);
-        }
     `}
 
     ${props => props.showInfoL && css`
