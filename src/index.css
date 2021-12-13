@@ -8,3 +8,21 @@ body{
   font-family: 'Ubuntu';
   background-color: wheat;
 }
+
+
+table {
+  display: inline-block;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+table * {
+  padding: 10px;
+  border: 2px solid goldenrod;
+  
+}
+
+table th {
+  color: white;
+  background: goldenrod;
+}
