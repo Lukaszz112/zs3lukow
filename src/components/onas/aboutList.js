@@ -39,19 +39,19 @@ class AboutList extends react.Component{
         return(
         <>
             <Wrapper lukasz showInfoL={this.state.showInfoL}>
-                    <img src="https://cdn.glitch.me/32d6913b-918b-4340-b6a2-9a73932c01eb/lukasz.png?v=1639423140746" onClick={handleImgL}></img>
+                    <img src="https://cdn.glitch.me/8e3149b6-fa53-4a08-995d-918b1a0b05b9/lukasz.png?v=1639436058015" alt="Lukasz" onClick={handleImgL}></img>
                     {this.state.showInfoL ? (<p>{Lukasz}</p>) : null }
             </Wrapper>
 
             <Wrapper jakub showInfoJ={this.state.showInfoJ}>
-                <img src="https://cdn.glitch.me/32d6913b-918b-4340-b6a2-9a73932c01eb/jakub.jpg" onClick={handleImgJ}></img>
+                <img src="https://cdn.glitch.me/8e3149b6-fa53-4a08-995d-918b1a0b05b9/jakub.png?v=1639436053704" alt="Jakub" onClick={handleImgJ}></img>
                 {this.state.showInfoJ ? (<p>{Jakub}</p>) : null }
             </Wrapper>
 
             <Wrapper robert showInfoR={this.state.showInfoR}>
-                <img src="https://cdn.glitch.me/32d6913b-918b-4340-b6a2-9a73932c01eb/robert.jpg?v=1639423157624" onClick={handleImgR}></img>
+                <img src="https://cdn.glitch.me/8e3149b6-fa53-4a08-995d-918b1a0b05b9/robert.png?v=1639436065168" alt="Robert" onClick={handleImgR}></img>
                 {this.state.showInfoR ? (<p>{Robert}</p>) : null }
-            </Wrapper>       
+            </Wrapper>      
         </>
         )
     }
